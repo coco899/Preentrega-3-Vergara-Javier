@@ -1,0 +1,64 @@
+$chocolate: chocolate;
+$letra: 40px;
+
+*{
+    margin: 1%;
+    padding: 1%;
+    border: 1%;
+}
+/*entiendo que no tengo que poner el header porque lo llamo con el import de la página hecha especialmente*/
+@import"header";
+
+body {
+    background-color: beige;
+    .titulo {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: bold;
+        font-size: 70px;
+        text-align: center;
+        color: brown;
+        }
+    .subtitulo {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: normal;
+        font-size: 30px;
+        text-align: center;
+        font-style: italic;
+        color: $chocolate;
+    }
+    .navv {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: normal;
+        font-size: 25px;
+        color: $chocolate;
+    }
+    .main { 
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: normal;
+        font-size: 20px;
+        color: $chocolate;
+        text-align: center; 
+    }
+    .variedad {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: normal;
+        font-size: 35px;
+        text-align: center;
+        font-style: italic;
+        color: $chocolate;
+    }
+    .texto {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: normal;
+        font-size: 20px;
+        text-align: justify;
+        color: $chocolate;
+    }
+footer {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: normal;
+    font-size: $letra - 20;
+    text-align: justify;
+    color: $chocolate;
+}
+}
